@@ -27,26 +27,33 @@
   src: url('../fonts/bellefair-v15-latin-regular.woff2') format('woff2');
 }
 h1, h2, h3, h4{
-    font-family: "Bellefair", serif;
+  font-family: "Bellefair", serif;
 }
 p{
-    font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 a, strong{
-    font-family: "Barlow Condensed", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 body{
-  /* background-image: ; */
+  background-image: url(../images/moon-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
+
 }
 .containers{
-    max-width: 1150px;
-    margin: 0 auto;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.site-navbar{
+  backdrop-filter: blur(81.54845428466797px)
 }
