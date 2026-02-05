@@ -43,10 +43,19 @@ a, strong{
     text-decoration: none;
 }
 body{
-  /* background-image: ; */
+  background-image:url(../images/bg.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 .containers{
     max-width: 1150px;
     margin: 0 auto;
+}
+
+.header-navbar {
+backdrop-filter: blur(81.54845428466797px);
+width: 971px;
+height: 92px;
+
 }
