@@ -46,8 +46,6 @@ body{
   background-image: url(../images/moon-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-
 }
 .containers{
   max-width: 1150px;

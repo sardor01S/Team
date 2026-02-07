@@ -8,23 +8,66 @@
     <title>Destination</title>
 </head>
 <body>
-    <header class="header flex px-[55px]! py-[64px]! gap-[65px]">
-        <div class="flex gap-[65px]">
-            <img src="./images/start.svg" alt="photo" width="48" height="48">
-            <img src="./images/header-line.svg" alt="photo" width="473" height="1">
+    <header class="!pl-[55px] !pt-[40px] flex items-center justify-between mb-[75px]!">
+        <div class="flex items-center gap-[64px]">
+            <a href="#">
+                <img src="./images/start.svg" alt="logo" width="48" height="48" />
+            </a>
+            <span class="inline-block w-[403px] h-[1px] bg-white"></span>
         </div>
-        <div class="flex justify-between">
-            <nav class=" site-navbar flex text-white gap-[50px] px-[163px]! py-[40px]!">
-                <a href="#"><span>00</span> Home</a>
-                <a href="#"><span>00</span> Home</a>
-                <a href="#"><span>00</span> Home</a>
-                <a href="#"><span>00</span> Home</a>
+        <div class="site-navbar !pl-[123px] !pr-[165px] bg-[#FFFFFF0A] flex items-center justify-start">
+            <nav class="flex justify-between! gap-[48px] !px-[50px]">
+                <a class="!py-[39px] tracking-[2.7px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="./index.html">
+                    <span class="font-bold !mr-[11px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300">00</span>
+                    HOME
+                </a>
+                <a class="!py-[39px] tracking-[2.7px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="#">
+                    <span class="font-bold !mr-[11px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300">01</span>
+                    DESTINATION
+                </a>
+                <a class="!py-[39px] tracking-[2.7px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="./crew.html">
+                    <span class="font-bold !mr-[11px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300">02</span>
+                    CREW
+                </a>
+                <a class="!py-[39px] tracking-[2.7px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="#"><span class="font-bold !mr-[11px] text-white text-[16px] leading-[100%] border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300">03</span>TECHNOLOGY</a>
             </nav>
         </div>
     </header>
-
-
-
+    <main class="site-main">
+        <section class="hero-section">
+            <div class="containers flex gap-[206px]">
+                <div>
+                    <p class="!mr-[11px] mb-[65px]! text-white text-[16px] leading-[100%]"><strong class="font-semibold !mr-[11px]  tracking-[2.7px] text-[16px]  leading-[100%] text-gray-500">01</strong>PICK YOUR DESTINATION</p>
+                    <img src="./images/moon.png" alt="photo" width="445" height="445">
+                </div>
+                <div class="hero-left-wrapper mt-[100px]! mb-[118px]!">
+                    <div class="flex gap-[40px] mb-[37px]!">
+                        <a class="text-white border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="#">MOON</a>
+                        <a class="text-white border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="#">MARS</a>
+                        <a class="text-white border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="#">EUROPA</a>
+                        <a class="text-white border-b-2 border-transparent hover:border-blue-500 transition-all hover:scale-110 duration-300" href="#">TITAN</a>
+                    </div>
+                    <h1 class=" text-white text-[100px] leading-[100%] mb-[15px]">MOON</h1>
+                    <div class="w-[444px] text-[#D0D6F9] text-[18px] leading-[32px] mb-[54px]!">
+                        <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                    </div>
+                    <span class="inline-block w-[444px] h-[1px] bg-[#383B4B] mb-[25px]!"></span>
+                    <div class="flex gap-[80px]">
+                        <div class="">
+                            <p class=" text-[#D0D6F9] text-[14px] leading-[100%] mb-[12px]!">AVG. DISTANCE</p>
+                            <h3 class="text-white text-[28px] leading-[100%]">384,400 km</h3>
+                        </div>
+                        <div>
+                            <p class="text-[#D0D6F9] text-[14px] leading-[100%] mb-[12px]!">Est. TRAVEL TIME</p>
+                            <h3 class="text-white text-[28px] leading-[100%]">3 DAYS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 </html>
